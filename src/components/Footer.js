@@ -1,22 +1,23 @@
 import React from "react";
 import FooterColumn from "./FooterColumn";
 import Socials from "./Socials";
-import Date from "./Date";
+import Time from "./Time";
 const Footer = () => {
   return (
-    <footer className="bg-blue-500 w-screen grid grid-cols-3 absolute bottom-0 text-white">
-      <div className="col-span-2 flex flex-row">
+    <footer className="bg-blue-500 h-1/5 xl:w-full w-2/3 lg:flex lg:flex-col grid grid-cols-5 text-white">
+      <div className="md:text-center md:flex-col md:items-center col-span-3 flex flex-row flex-wrap justify-around mt-10 mb-6 text-sm">
         <FooterColumn headerText={"ABOUT ME"}>
           <p>This is text about myself.</p>
         </FooterColumn>
         <FooterColumn headerText={"DATE"}>
-          <Date />
+          <Time />
         </FooterColumn>
         <FooterColumn headerText={"CONTACT"}>
           <p>
             Phone number: <a href="tel:509647908">509647908</a>
           </p>
           <p>
+            Email:{" "}
             <a href="mailto:mat.lason@outlook.com">mat.lason@outlook.com</a>
           </p>
         </FooterColumn>

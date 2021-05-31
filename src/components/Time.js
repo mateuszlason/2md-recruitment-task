@@ -23,10 +23,10 @@ const Time = () => {
 
   return (
     <>
-      <span>
+      <span className="font-bold lg:mb-0 mb-2">
         <time>{time}</time>
       </span>
-      <span>
+      <span className="font-bold">
         <time>{date}</time>
       </span>
     </>
