@@ -12,7 +12,7 @@ const Time = () => {
     };
 
     setTime(new Date().toLocaleTimeString(undefined, timeOptions));
-    setDate(new Date().toLocaleDateString("pl-PL"));
+    setDate(new Date().toLocaleDateString("en-CA"));
   };
 
   useEffect(() => {
@@ -23,11 +23,11 @@ const Time = () => {
 
   return (
     <>
-      <span className="font-bold lg:mb-0 mb-2">
-        <time>{time}</time>
-      </span>
       <span className="font-bold">
         <time>{date}</time>
+      </span>
+      <span className="font-bold lg:mb-0 mb-2">
+        <time>{time}</time>
       </span>
     </>
   );
