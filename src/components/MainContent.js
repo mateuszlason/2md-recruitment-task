@@ -25,10 +25,10 @@ const MainContent = ({ toggleGallery }) => {
       </div>
 
       <article className="sm:items-center col-span-2 relative py-24 h-full w-full px-10 flex flex-col justify-center text-blue-400">
-        <h1 className="absolute lg:text-2xl sm:top-14 md:top-7 xl:top-12 top-20 text-3xl text-left">
+        <h1 className="font-serif absolute lg:text-2xl sm:top-14 md:top-7 xl:top-12 top-20 text-3xl text-left">
           This is main page title.
         </h1>
-        <p className="text-sm w-4/5 absolute text-left mt-3 mb-5">
+        <p className="font-serif text-sm w-4/5 absolute text-left mt-3 mb-5">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
           scelerisque cursus diam non ultricies.
           <span className={toggleText ? "hidden" : "inline"}>..</span>
