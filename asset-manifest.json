@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/2md-recruitment-task/static/css/main.css",
+    "main.js": "/2md-recruitment-task/static/js/main.js",
+    "index.html": "/2md-recruitment-task/index.html",
+    "static/js/main.js.LICENSE.txt": "/2md-recruitment-task/static/js/main.js.LICENSE.txt",
+    "static/media/hexagon.f5e88dfe.svg": "/2md-recruitment-task/static/media/hexagon.f5e88dfe.svg"
+  },
+  "entrypoints": [
+    "static/css/main.css",
+    "static/js/main.js"
+  ]
+}
